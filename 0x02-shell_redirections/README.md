@@ -69,6 +69,7 @@
 22. cut -d ':' -f 1,6 /etc/passwd | sort
 	* Displays all users and their home directories, sorted by users
 
+
 100. find . -empty | rev | cut -d '/' -f 1 | rev
 
 	* Finds all empty files and directories in the current directory and all sub-directories
